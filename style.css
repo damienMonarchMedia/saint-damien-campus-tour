@@ -5,3 +5,6 @@
 html{scrollbar-gutter:stable}
 html.tour-keyboard-active,html.tour-keyboard-active body{overflow:clip}
 .tour-keyboard-note{font-size:12px;color:var(--muted);margin:16px 0 0}
+@media (hover:hover) and (pointer:fine){
+  html:has(.tour-embed:hover),html:has(.tour-embed:hover) body{overflow:clip}
+}
