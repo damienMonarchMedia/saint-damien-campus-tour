@@ -5,3 +5,5 @@
 html{scrollbar-gutter:stable}
 .tour-keyboard-note{font-size:12px;color:var(--muted);margin:16px 0 0}
 
+
+@media (max-width:800px) and (hover:hover) and (pointer:fine){.tour-embed{height:260px}}
